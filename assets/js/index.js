@@ -36,3 +36,6 @@ $('#btnLogout').click(() => {
 });
 //获取用户列表
 getUserInfo();
+function change() {
+  $('#change').addClass('layui-this').next().removeClass('layui-this');
+}
